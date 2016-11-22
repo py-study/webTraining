@@ -12,6 +12,10 @@ function onfocusInput() {
         document.getElementById("myinput").value = '';
         onclickInput();
     }
+    else if(v == '')
+    {
+	document.getElementById("myinput").value = '请输入内容';
+    }
 }
 
 function onclickInput() {
