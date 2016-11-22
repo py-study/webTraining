@@ -14,7 +14,7 @@ function onfocusInput() {
     }
 }
 
-function onfocusoutInput(){
+function onblurInput(){
     var v = document.getElementById("myinput").value;
     if(v == '')
     {
