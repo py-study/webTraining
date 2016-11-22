@@ -2,17 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>使用外部样式和脚本</title>
-    <link type="text/css" href="style.css">
+    <title>OPT Production</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <!-- 使用样式 -->
-<h1 class="red">hello world</h1>
-<!-- 定义事件响应脚本 -->
-<button onclick="clickMe()">click me</button>
+<h1>Hello OPT</h1>
 
-<!-- 在脚本中添加focus方法 弹出提示“i'm focused”-->
-<input type="text" id="myinput" onfocus="onfocusInput()" onblur="onblurInput()" value="请输入内容">
+<div class="dev1">
+	<div>
+		<lable>Name:</lable>
+		<input type="text" id="nameInput" onfocus="onfocusNameInput()" value="您的名字">
+	</div>
+	<div>
+		<lable>Password:</lable>
+		<input type="password" id="passwordInput" onfocus="onfocusPasswordInput()" value="8888">
+	</div>
+	<div>
+		<button onclick="clickLogin()">登录</button>
+	</div>
+</div>
+
 <script src="index.js"></script>
+
 </body>
 </html>

@@ -1,3 +1,26 @@
-.red {
+h1{
     color: red;
+    text-align:center;
 }
+
+
+body{
+	  background-image: url("mm.jpg");
+	  background-repeat: no-repeat;
+      background-position:center;
+  	  background-attachment:fixed;
+  	  vertical-align: middle;
+}
+
+.dev1{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width:200px;
+	height:100px;
+	margin-left:-100px;
+	margin-top:-50px;
+}
+
+
+
