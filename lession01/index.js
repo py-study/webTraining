@@ -2,7 +2,9 @@
  * Created by dujiaheng on 2016/11/21.
  */
 function clickLogin() {
-    alert('i\'m clicked \n 老师的作业有个坑，在onfocus事件里的alert，会关不掉！');
+    var v = document.getElementById("nameInput").value;
+    message = '你好：' + v + "\n\n感谢杜老师的精心教学！tks \n\n";
+    alert(message);
 }
 
 function onfocusNameInput() {
